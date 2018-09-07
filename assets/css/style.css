@@ -1,0 +1,407 @@
+#topbar {
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+   
+}
+
+#topcontainer {
+    width: 960px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#topname {
+
+    height: 35px;
+    width: 200px;
+    background-color: #4aaaa5;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#ffffff;
+
+}
+
+li {
+    display: inline;
+    margin: 0px 3px;
+    padding: 4px;
+    
+}
+
+
+#links {
+       float: right;
+       height: 25px;
+       width: 300px;
+       margin: 0;
+       padding: 25 0 25 0;
+       text-align: right;
+}
+ul {
+    
+    padding-top: 10px;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/images/conc.png")
+     
+}
+
+a {
+    color: #B1B4C1;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    color: #cccccc;
+}
+
+.mbody {
+    width: 910px;
+    background-color: #ffffff;
+    margin: 20px auto 100px auto;
+    padding: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color:gray;
+}
+
+
+h3 {
+    color: #4aaaa5;
+    font-size: 135%;
+}
+
+img {
+    padding: 20px 20px 20px 0;
+}
+
+#floatp {
+    float: left;
+}
+
+#subb {
+    margin: 10px 0 0 0;
+    padding: 5px 10px 5px 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#foot1 {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #666666;
+    height: 65px;
+    z-index: 2;
+    color:#ffffff;
+    text-align: center;
+
+}
+
+#foot2 {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #4aaaa5;
+    height: 75px;
+    z-index: 1;
+}
+
+#dronlink {
+    background-image: url("../../assets/images/phan.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px;
+}
+
+.innerdesc {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 280px;
+    text-align: center;
+    top: 150px;
+}
+
+#threed {
+    background-image: url("../../assets/images/3d-printing.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px;
+}
+
+#fort {
+    background-image: url("../../assets/images/fortnight.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px;
+}
+
+
+
+#jets {
+    background-image: url("../../assets/images/jets.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px;
+}
+
+#run {
+    background-image: url("../../assets/images/running.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px;
+}
+
+#cbeer {
+    background-image: url("../../assets/images/craftbeer.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    float: left;
+    clear: both;
+    margin: 20px 10px;
+}
+
+#portbody {
+    height: 800px;
+}
+
+.hr:hover {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+a:hover {
+    color: #4aaaa5;
+    font-style: italic;
+}
+@media only screen and (max-width: 980px) {
+    .mbody {
+        width: 550px;
+        float: left;
+        margin: 40px 0 0 50px;
+        height: 800px;
+    }
+
+    #topbar {
+        width: 100%;
+        height: 75px;
+        background-color: #ffffff;
+    }
+
+    #topcontainer {
+        width: 100%;
+        height: 75px;
+        margin: 0 auto;
+        background-color:  #ffffff;
+    }
+    
+    #topname {
+    
+        height: 35px;
+        width: 200px;
+        background-color: #4aaaa5;
+        float: left;
+        text-align: center;
+        margin: 0 auto 0 15px;
+        padding: 20px 0 20px 0;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color:#ffffff;
+    
+    }
+
+    #floatp {
+        float: left;
+    }
+
+    #topbar {
+        width: 100%;
+        height: 75px;
+        background-color: #ffffff;
+    }
+
+    #links {
+        float: right;
+        height: 25px;
+        width: 300px;
+        margin: 15px auto 0 auto;
+        padding: 25 0 25 0;
+        text-align: center;
+        background-color:#ffffff;
+    }
+
+    #portbody {
+        width: 600px;
+        height: 1100px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .mbody {
+        width: 500px;
+        float: none;
+        margin: 20px auto 20px auto;
+    }
+
+
+
+    body {
+        margin-bottom: 150px;
+    }
+
+    #topbar {
+        width: 100%;
+        height: 75px;
+        background-color: #ffffff;
+    }
+
+    #topcontainer {
+        width: 100%;
+        height: 75px;
+        margin: 0 auto;
+        background-color:  #ffffff;
+    }
+    
+    #topname {
+    
+        height: 35px;
+        width: 200px;
+        background-color: #4aaaa5;
+        float: left;
+        text-align: center;
+        margin: 0 auto 0 15px;
+        padding: 20px 0 20px 0;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color:#ffffff;
+    
+    }
+
+    #floatp {
+        float: left;
+    }
+
+    #topbar {
+        width: 100%;
+        height: 75px;
+        background-color: #ffffff;
+    }
+
+    #links {
+        float: right;
+        height: 25px;
+        width: 300px;
+        margin: 15px auto 0 auto;
+        padding: 25 0 25 0;
+        text-align: center;
+        background-color:#ffffff;
+    }
+
+    #portbody {
+        width: 600px;
+        height: 1000px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .mbody {
+        width: 350px;
+        height: 1300px;
+        float: none;
+        margin: 20px auto 20px auto;
+        
+    }
+
+    body {
+        margin-bottom: 150px;
+    }
+
+    #floatp {
+        float: none;
+    }
+
+    #topcontainer {
+        width: 100%;
+        height: 130px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        text-align: 0 auto;
+        
+       
+    }
+    #topname {
+
+        height: 35px;
+        width: 100%;
+        background-color: #4aaaa5;
+        float: left;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color:#ffffff;
+
+     }
+
+    img {
+        margin: 20px 0 0 55px;
+        height: 242px;
+        width: 222px;
+     }
+
+    #topbar {
+        width: 100%;
+        height: 130px;
+        background-color: #ffffff;
+    }
+
+    #links {
+        float: right;
+        height: 25px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 25 0 25 0;
+        text-align: center;
+        background-color:#ffffff;
+    }
+
+    #portbody {
+        width: 300px;
+        height: 1500px;
+        
+    }
+
+}
+
