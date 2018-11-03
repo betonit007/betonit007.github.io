@@ -118,8 +118,8 @@ img {
     z-index: 1;
 }
 
-#dronlink {
-    background-image: url("../../assets/images/phan.jpg");
+#project1 {
+    background-image: url("../../assets/images/project1.jpg");
     background-repeat: no-repeat;
     height: 200px;
     width: 280px;
@@ -140,8 +140,8 @@ img {
     top: 150px;
 }
 
-#threed {
-    background-image: url("../../assets/images/3d-printing.jpg");
+#gif {
+    background-image: url("../../assets/images/gifgetter.jpg");
     background-repeat: no-repeat;
     height: 200px;
     width: 280px;
@@ -149,8 +149,8 @@ img {
     margin: 20px 10px;
 }
 
-#fort {
-    background-image: url("../../assets/images/fortnight.jpg");
+#guess {
+    background-image: url("../../assets/images/Guess.jpg");
     background-repeat: no-repeat;
     height: 200px;
     width: 280px;
@@ -160,8 +160,8 @@ img {
 
 
 
-#jets {
-    background-image: url("../../assets/images/jets.png");
+#bounty {
+    background-image: url("../../assets/images/bounty.jpg");
     background-repeat: no-repeat;
     height: 200px;
     width: 280px;
@@ -169,8 +169,8 @@ img {
     margin: 20px 10px;
 }
 
-#run {
-    background-image: url("../../assets/images/running.jpg");
+#saab {
+    background-image: url("../../assets/images/trivia.jpg");
     background-repeat: no-repeat;
     height: 200px;
     width: 280px;
@@ -178,8 +178,8 @@ img {
     margin: 20px 10px;
 }
 
-#cbeer {
-    background-image: url("../../assets/images/craftbeer.jpg");
+#train {
+    background-image: url("../../assets/images/Train.jpg");
     background-repeat: no-repeat;
     height: 200px;
     width: 280px;
